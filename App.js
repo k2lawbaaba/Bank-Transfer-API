@@ -12,7 +12,7 @@ app.use(express.json());
 var accountNo = Math.floor(1000000000 + Math.random() * 9000000000)
  var referenceNo = Math.floor(1000000000000 + Math.random() * 9000000000000)
 
-dotenv.config({path:"./configt.env"})
+dotenv.config({path:"./config.env"})
 
 mongoose.connect("mongodb://127.0.0.1:27017/bankAccount",{useNewUrlParser:true})
 
